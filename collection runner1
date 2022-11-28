@@ -1,0 +1,113 @@
+{
+	"id": "481708f0-88d8-495d-8dd7-86126817026e",
+	"name": "API Collection - TEAM POSTMAN",
+	"timestamp": "2022-11-26T17:57:44.606Z",
+	"collection_id": "24221310-5b241282-9562-4250-a63d-649213af71ad",
+	"folder_id": 0,
+	"environment_id": "24221310-290713e5-21ef-430f-98fd-3279efe0d76f",
+	"totalPass": 6,
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "4277bdf3-73a7-48c0-b7b4-c921faf5399a",
+			"name": "Get All Todo Entries",
+			"time": 198,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 2
+				}
+			},
+			"times": [
+				4816,
+				198
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				},
+				{
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "11ef6531-a0b6-45e6-a4d9-113a2cadca6d",
+			"name": "Get All Entries",
+			"time": 260,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"apiVersion should be 6.3.8.0": true
+			},
+			"testPassFailCounts": {
+				"apiVersion should be 6.3.8.0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				921,
+				260
+			],
+			"allTests": [
+				{
+					"apiVersion should be 6.3.8.0": true
+				},
+				{
+					"apiVersion should be 6.3.8.0": true
+				}
+			]
+		},
+		{
+			"id": "f0123fc5-63bc-41f7-baba-da3125b4db20",
+			"name": "Get entry per ID",
+			"time": 414,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				415,
+				414
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 7024,
+	"collection": {
+		"requests": [
+			{
+				"id": "4277bdf3-73a7-48c0-b7b4-c921faf5399a",
+				"method": "GET"
+			},
+			{
+				"id": "11ef6531-a0b6-45e6-a4d9-113a2cadca6d",
+				"method": "GET"
+			},
+			{
+				"id": "f0123fc5-63bc-41f7-baba-da3125b4db20",
+				"method": "GET"
+			},
+			{
+				"id": "94a57ed0-c182-4394-9076-819c8517bda3",
+				"method": "GET"
+			}
+		]
+	}
+}
